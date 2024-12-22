@@ -13,7 +13,7 @@ export default defineConfig({
   server:{
     proxy:{
       "/api":{
-        target:'https://setflix7.azurewebsites.net',
+        target:'https://setflix8.azurewebsites.net',
       }
     }
   }

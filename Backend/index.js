@@ -26,7 +26,7 @@ const __dirname = path.resolve();
 
 
 app.use(cors({
-  origin: Env_Vars.NODE_ENV === 'production' ? 'https://setflix7.azurewebsites.net' : 'http://localhost:5173',
+  origin: Env_Vars.NODE_ENV === 'production' ? 'https://setflix8.azurewebsites.net' : 'http://localhost:5173',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
   credentials: true
 }));
